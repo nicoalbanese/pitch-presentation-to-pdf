@@ -6,7 +6,9 @@ main {
     min-width: 250px;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
+    text-align: center;
 }
 
 p {
@@ -14,4 +16,29 @@ p {
 }
 div {
     padding: 1rem 0;
+}
+
+
+#statusMessage {
+    transform: scale(1);
+	animation: pulse 2s infinite;
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+        opacity: 0;
+	}
+
+	50% {
+		transform: scale(1);
+        opacity: .5;
+	}
+
+	100% {
+		transform: scale(0.95);
+        opacity: 1;
+	}
 }
