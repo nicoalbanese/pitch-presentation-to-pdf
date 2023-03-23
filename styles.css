@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+}
+
+main {
+    min-width: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+p {
+    padding: .5rem 0;
+}
+div {
+    padding: 1rem 0;
+}
