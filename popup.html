@@ -7,15 +7,18 @@
   <body>
     <main>
       <h1>Export Pitch.com Presentation as PDF</h1>
-      <p>
-        Please navigate to the first slide of the presentation, then click
-        export.
-      </p>
-      <p>
-        Make sure your browser window is taking up your entire screen to ensure
-        the best quality export!
-      </p>
-      <button id="exportBtn">Export</button>
+      <div class="instructions">
+        <p>
+          Please navigate to the first slide of the presentation, then click
+          export.
+        </p>
+        <p>
+          Make sure your browser window is taking up your entire screen to
+          ensure the best quality export!
+        </p>
+        <button id="exportBtn">Export</button>
+      </div>
+      <div id="statusMessage" style="display: none"></div>
       <div id="footer">made by Nico Albanese and ChatGPT-4 :)</div>
     </main>
     <script src="popup.js"></script>
