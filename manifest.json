@@ -8,7 +8,8 @@
     "default_popup": "popup.html",
     "default_icon": {
       "48": "icon48.png"
-    }
+    },
+    "matches": ["https://*.pitch.com/*"]
   },
   "content_scripts": [
     {
