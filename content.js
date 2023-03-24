@@ -34,14 +34,14 @@ async function captureSlides() {
     const pdf = new window.jspdf.jsPDF({
       orientation: "landscape",
       unit: "px",
-      format: [960, 540],
+      format: [1920, 980],
     });
   
     slideImages.forEach((image, index) => {
       if (index > 0) {
         pdf.addPage();
       }
-      pdf.addImage(image, "PNG", 0, 0, 960, 540);
+      pdf.addImage(image, "PNG", 0, 0, 1920, 980);
     });
   
     pdf.save("presentation.pdf");

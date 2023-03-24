@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Pitch Presentation Exporter",
-  "version": "1.0",
+  "name": "Pitch Presentation to PDF",
+  "version": "0.0.0.1",
   "description": "Export presentations from pitch.com as a PDF",
   "permissions": ["activeTab", "downloads", "tabs"],
   "action": {
