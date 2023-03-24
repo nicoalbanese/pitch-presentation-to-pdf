@@ -1,4 +1,4 @@
-# A Chrome extension to download DocSend slides as a PDF.
+# A Chrome extension to download Pitch.com slides as a PDF.
 
 
 ## How to install
